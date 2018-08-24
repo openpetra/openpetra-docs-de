@@ -9,31 +9,34 @@ Benutzerhandbuch
 Begriffe erklärt
 ----------------
 
-Partner Module
-~~~~~~~~~~~~~~
+Partner Modul
+~~~~~~~~~~~~~
 
 **Partner**
-   A partner in OpenPetra is a contact. It can be a donor, or a recipient of a donation. Or it can be a worker or volunteer. It also can be a field or a project. There are certain partner classes for this. When creating a new partner, you can select which type of partner you want to create.
+   In OpenPetra ist ein Partner ein Kontakt. Momentan werden nur Spender und Unterstützer als Kontakte erfasst. Eine Unterstützung für Projekte oder Mitarbeiter als Partner gibt es noch nicht.
+   Es gibt momentan die Partnertypen Familie und Organisation.
+   
+**Familie**
+   Eine Familie ist ein Partner, wobei wir damit einzelne Personen oder Familien erfassen. So kann ein "Herr Max Mustermann" ein Kontakt vom Typ Familie sein, aber auch "Herr und Frau Max und Eva Muster" können ein Kontakt vom Typ Familie sein.
 
-**Family**
-   A family is a special partner, that can be either an individual person or a family. Usually your donors are of partner type "FAMILY", because you don't need their date of birth and other personal details. If you want to manage such personal details, you need to create a "PERSON" partner, that belongs to a "FAMILY" partner.
+**Organisation**
+   Eine Organisation ist ein Partner, der z.B. eine Firma, ein Verein oder eine Kirchengemeinde ist.
 
-**Subscription**
-   A donor or partner of your organisation can opt in to receive a regular news update or magazine.
-
-Finance Module
+**Abonnements**
+   Ein Spender oder Partner kann einen Newsletter oder ein Mitteilungsmagazin abonniert haben.
+   
+Finanz Modul
 ~~~~~~~~~~~~~~
 
-**General Ledger**
-   A General Ledger contains all financial transactions and accounts for the legal entity of your charity. Sometimes, you might need several General Ledgers, because your organisation has several legal entities, eg. for tax reasons.
+**Hauptbuch**
+   Das Hauptbuch enthält alle Buchungen und Kontostände eines Vereins, als juristische Person. Wenn man die Buchungen für mehrere Vereine verwalten will, muss man für jeden Verein ein eigenes Hauptbuch anlegen.
 
-**Gift**
-   Should be called donation instead. There are annual gift receipts printed once a year, but you can specify on the donor's partner record if a receipt should be printed for each donation.
+**Spende**
+   Die Unterstützer spenden entweder regelmäßig oder spontan. In OpenPetra können Spenden aus Kontoauszügen importiert werden, wobei wiederkehrende Spenden automatisch erkannt werden.
+   In OpenPetra werden Zuwendungsbestätigungen (auch Spendenbescheinigungen genannt) normalerweise einmal fürs ganze Jahr ausgedruckt, und können per Post an die Unterstützer geschickt werden.
+   Pro Kontakt kann festgelegt werden, ob der Spender keine Zuwendungsbestätigung wünscht.
 
-**Accounts Payable, AP**
-   This is where you can post all the bills that your organisation needs to pay.
+Loslegen
+--------
 
-Getting started
----------------
-
-Have a look at the :ref:`HowTos <howtos>`
+Hier sind ein paar :ref:`Anleitungen <howtos>`
