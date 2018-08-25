@@ -97,4 +97,4 @@ Hier geben Sie den Benutzernamen, die E-Mail Adresse, ggf. den Vornamen und den 
 
 Per Voreinstellungen sind die Module *Finance - Basic User*, *Finance - Reporting User*, *Partner User Level Access* schon ausgewählt. Für den Buchhalter in Ihrem Team sollte auch *Finance - Intermediate User* und *Finance - Advanced User* gewählt werden.
 
-Dem neuen Benutzer wird eine E-Mail zugeschickt, in dem der Zugang zu OpenPetra und das generierte Passwort mitgeteilt werden.
+Dem neuen Benutzer wird eine E-Mail zugeschickt, um den Zugang zu OpenPetra und das generierte Passwort mitzuteilen.
