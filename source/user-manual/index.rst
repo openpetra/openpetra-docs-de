@@ -39,4 +39,4 @@ Finanz Modul
 Loslegen
 --------
 
-Hier sind ein paar :ref:`Anleitungen <howtos>`
+Hier sind ein paar :ref:`howtos`
