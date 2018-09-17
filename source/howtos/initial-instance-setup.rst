@@ -24,14 +24,7 @@ Sie melden sich also im Webbrowser auf Ihrer OpenPetra Instanz als Benutzer SYSA
 Ändern des Passworts
 ====================
 
-Als nächster Schritt sollten Sie sofort das Passwort ändern, im Menü unter Einstellungen / Passwort ändern:
-
-.. _figure-menu_change_password:
-
-.. figure:: images/menu_change_password.png
-   :scale: 50%
-
-   Menü: Einstellungen / Passwort
+Als nächster Schritt sollten Sie sofort das Passwort ändern, es wird auch schon direkt die Seite *Einstellungen* / *Passwort ändern* angezeigt:
 
 Dazu müssen Sie nochmal das bereitgestellte Passwort eingeben, und dann können Sie ein eigenes Passwort eingeben:
 
