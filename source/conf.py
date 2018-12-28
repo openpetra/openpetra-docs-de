@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenPetra'
-copyright = u'2014-2018, OpenPetra Community & TBits.net'
+copyright = u'2014-2018, OpenPetra Community & SolidCharity'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -162,7 +162,7 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
