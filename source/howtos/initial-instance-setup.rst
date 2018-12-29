@@ -90,4 +90,35 @@ Hier geben Sie den Benutzernamen, die E-Mail Adresse, ggf. den Vornamen und den 
 
 Per Voreinstellungen sind die Module *Finance - Basic User*, *Finance - Reporting User*, *Partner User Level Access* schon ausgewählt. Für den Buchhalter in Ihrem Team sollte auch *Finance - Intermediate User* und *Finance - Advanced User* gewählt werden.
 
-Dem neuen Benutzer wird eine E-Mail zugeschickt, um den Zugang zu OpenPetra und das generierte Passwort mitzuteilen.
+Dem neuen Benutzer wird eine E-Mail zugeschickt, um den Zugang zu OpenPetra und das generierte Passwort mitzuteilen. Dieses Passwort sollte dann bei der ersten Anmeldung geändert werden.
+
+Ein Hauptbuch anlegen
+=====================
+
+Nun melden Sie sich mit dem gerade erstellten Benutzer an, um das Hauptbuch anzulegen.
+
+Gehen Sie im seitlichen Menü auf *Finanzen einrichten*, und wählen *Hauptbuch*.
+
+Die Liste der Hauptbücher ist erstmal leer:
+
+.. _figure-ledger_list:
+
+.. figure:: images/ledger_list.png
+   :scale: 50%
+
+   Liste der Hauptbücher
+
+Sie müssen für jeden Verein ein Hauptbuch anlegen, im Normalfall brauchen Sie also nur ein Hauptbuch.
+
+Wählen Sie nun den Schalter *Hinzufügen*, um ein Hauptbuch anzulegen
+
+Es folgt dieser Dialog:
+
+.. _figure-add_ledger:
+
+.. figure:: images/add_ledger.png
+   :scale: 50%
+
+   Neues Hauptbuch anlegen
+
+
