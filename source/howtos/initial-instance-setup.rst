@@ -110,7 +110,7 @@ Die Liste der Hauptbücher ist erstmal leer:
 
 Sie müssen für jeden Verein ein Hauptbuch anlegen, im Normalfall brauchen Sie also nur ein Hauptbuch.
 
-Wählen Sie nun den Schalter *Hinzufügen*, um ein Hauptbuch anzulegen
+Wählen Sie nun den Schalter *Hinzufügen*, um ein Hauptbuch anzulegen.
 
 Es folgt dieser Dialog:
 
@@ -121,4 +121,16 @@ Es folgt dieser Dialog:
 
    Neues Hauptbuch anlegen
 
+Danach sollten Sie sich mit Ihrem Benutzer abmelden, und nochmal neu anmelden, um die Zugriffsrechte auf das neue Hauptbuch zu erhalten (siehe auch `Fehler 291 <https://github.com/openpetra/openpetra/issues/291>`_).
+
+Sie können die aktuellen Daten des neuen Hauptbuches so anzeigen lassen: Gehen Sie im seitlichen Menü auf *Buchhaltung*, und wählen *Hauptbuch*, und dann unter der *Übersicht* wählen Sie *Hauptbuch Statusinformationen*.
+
+Dann erscheint eine Ansicht wie diese:
+
+.. _figure-ledger_info:
+
+.. figure:: images/ledger_info.png
+   :scale: 50%
+
+   Details des Hauptbuches
 
