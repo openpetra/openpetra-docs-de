@@ -12,5 +12,6 @@ Schritt-für-Schritt Anleitungen
     :maxdepth: 1
 
     initial-instance-setup
+    initial-finance-setup
 
 
