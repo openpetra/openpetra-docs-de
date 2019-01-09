@@ -8,10 +8,10 @@ Konfiguration eines frischen Hauptbuches
 
 Wir gehen in dieser Anleitung davon aus, dass das Hauptbuch schon eingerichtet worden ist (siehe :ref:`ein-hauptbuch-anlegen`).
 
-Konten einrichten
-=================
+Kontenrahmen einrichten
+=======================
 
-Gehen Sie im seitlichen Menü auf *Buchhaltung*, und wählen *Konfiguration*, und dann unter *Hauptbuch* wählen Sie *Konten verwalten*.
+Gehen Sie im seitlichen Menü auf *Buchhaltung*, und wählen *Konfiguration*, und dann unter *Hauptbuch* wählen Sie *Kontenrahmen verwalten*.
 
 .. _figure-account_edit:
 
@@ -324,3 +324,48 @@ Eine Beispiel-Datei sieht so aus:
                 4300:{descr=Germany, type=Foreign}
                 7300:{descr=Kenya, type=Foreign}
                 9500:{descr=Global Impact Fund, type=Foreign}
+
+Verwendungszwecke einrichten
+============================
+
+Verwendungszwecke sind dazu da, um Spenden direkt einem Konto und einer Kostenstelle zuzuordnen, über ein leicht zu merkendes Kürzel.
+
+Zum Beispiel kann man bestimmen, dass Spenden an den Verwendungszweck SPENDE/PATENSCHAFTEN immer auf die Kostenstelle 101000 Patenschaften und das Konto 0100 Patenschaften gebucht werden.
+
+Hierbei ist SPENDE die Gruppe, und PATENSCHAFTEN das Detail.
+
+Gehen Sie im seitlichen Menü auf *Buchhaltung*, und wählen *Konfiguration*, und dann unter *Spenden* wählen Sie *Verwendungszwecke verwalten*.
+
+.. _figure-motivations_list:
+
+.. figure:: images/motivations_list.png
+   :scale: 50%
+
+   Verwendungszwecke verwalten
+
+Verwendungszwecke werden gruppiert, in diesem Beispiel heißt die Gruppe GIFT. Sie können die Gruppe löschen, indem Sie auf das Symbol mit dem Schraubenschlüssel klicken.
+
+Dann erscheint dieser Dialog:
+
+.. _figure-motivation_group_edit:
+
+.. figure:: images/motivation_group_edit.png
+   :scale: 50%
+
+   Verwendungszweck-Gruppe bearbeiten
+
+Um diese Gruppe und alle ihre Details zu löschen, klicken Sie den roten *Löschen* Schalter.
+
+Nun können Sie eine neue Gruppe mit Namen SPENDEN anlegen, in dem Sie auf den Schalter mit der Beschriftung *Hinzufügen* klicken.
+
+Um Verwendungszweck-Details einzufügen, klicken Sie auf die Gruppe, und dann klappt die Detailansicht auf. Dort ist ein weiterer *Hinzufügen* Schalter, der nun erlaubt, ein Detail anzulegen.
+
+Der Dialog für das Hinzufügen eines Verwendungszweck-Details sieht so aus:
+
+.. _figure-motivation_detail_add:
+
+.. figure:: images/motivation_detail_add.png
+   :scale: 50%
+
+   Verwendungszweck-Detail hinzufügen
+
