@@ -14,5 +14,6 @@ Schritt-für-Schritt Anleitungen
     initial-instance-setup
     initial-finance-setup
     initial-partner-setup
+    reset-database
 
 

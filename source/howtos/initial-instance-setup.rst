@@ -37,6 +37,8 @@ Dazu müssen Sie nochmal das bereitgestellte Passwort eingeben, und dann können
 
    Passwort ändern
 
+.. _eintragen-der-email-adresse:
+
 Eintragen der E-Mail Adresse
 ============================
 
