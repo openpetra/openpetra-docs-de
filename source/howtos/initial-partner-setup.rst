@@ -67,3 +67,24 @@ Der Dialog sieht so aus:
 Existierende Adressliste importieren
 ====================================
 
+Sie haben bereits eine Liste von Adressen, die Sie gerne importieren möchten?
+
+Dazu bringen Sie die Adressen in Excel oder LibreOffice Calc in eine Form, wie sie hier dargestellt ist:
+
+::
+
+  "Title";"FirstName";"FamilyName";"Street";"PostCode";"City";"Country";"Email";"Mobile";"Phone"
+  Herr;Arthur;Müller;"Wiesenstr. 8";"12345";"München";"DE";"mueller@gibts.net";0151-0000000000;01234-123123
+  Herr und Frau;"Hans-Walter und Martina";"Meier";"Bäckerweg 3";"98765";"Frankfurt am Main";"DE";"meier@gibtsauch.net";;;
+
+Die Reihenfolge der Spalten ist nicht wichtig, dafür ist aber die Überschrift der Spalten maßgeblich.
+
+Dann speichern Sie die Daten im Datei-Format CSV.
+
+Nun gehen Sie im seitlichen Menü auf *Partner*, und wählen *Partner*, und dann wählen Sie *Partner importieren*.
+
+Dann klicken Sie auf den Schalter mit der Beschriftung *Partner aus CSV Datei importieren*.
+
+Es öffnet sich ein Dialog, wo Sie die Datei auswählen, die Sie vorhin gespeichert haben.
+
+Nach dem erfolgreichen Import können Sie unter *Partner* / *Partner* / *Partner verwalten* die Liste Ihrer Partner sehen.
