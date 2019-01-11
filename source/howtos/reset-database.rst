@@ -19,7 +19,7 @@ Dann klicken Sie auf den roten Schalter mit der Beschriftung *Alle Daten aus Sic
 
 Es öffnet sich ein Dialog, wo Sie die Datei auswählen, die Sie vorhin gespeichert haben.
 
-Danach melden Sie sich ab, und melden sich wieder an, mit dem Benutzer SYSADMIN und dem Passwort CHANGEME.
+Danach melden Sie sich ab, und melden sich wieder an, mit dem Benutzer *SYSADMIN* und dem Passwort *CHANGEME*.
 
 Sie sollten das Passwort direkt ändern, im oberen Menü unter *Einstellungen* / *Passwort ändern*.
 
