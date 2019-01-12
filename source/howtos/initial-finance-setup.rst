@@ -369,3 +369,83 @@ Der Dialog für das Hinzufügen eines Verwendungszweck-Details sieht so aus:
 
    Verwendungszweck-Detail hinzufügen
 
+Startsaldo buchen
+=================
+
+Wenn Sie einen bestehenden Verein mit OpenPetra verwalten wollen, müssen die Konten mit einem Startsaldo bebucht werden.
+
+Dazu gehen Sie im seitlichen Menü auf *Buchhaltung*, und wählen *Hauptbuch*, und dann unter *Buchungen im Hauptbuch pflegen* wählen Sie *Buchungen verwalten*.
+
+.. _figure-gl_batches_list_empty:
+
+.. figure:: images/gl_batches_list_empty.png
+   :scale: 50%
+
+   Leere Liste der Stapel von Hauptbuch-Buchungen
+
+Zu Anfang ist die Liste der Stapel von Hauptbuch-Buchungen noch leer.
+
+Sie klicken nun aber auf den Schalter *Hinzufügen*, und legen einen neuen Stapel an:
+
+.. _figure-gl_batch_add:
+
+.. figure:: images/gl_batch_add.png
+   :scale: 50%
+
+   Neuen Stapel anlegen
+
+Die Stapelnummer ist vorgegeben, unveränderbar und fortlaufend.
+
+Den Namen und das Datum des Stapels können Sie selber vergeben. Das Datum muss in einem offenen Monat liegen.
+
+Wenn Sie auf den Schalter *Übernehmen* klicken, wird der Stapel angelegt. Nun klicken Sie auf den Namen des Stapels, und Sie gelangen in eine Ansicht, wo die Transaktionen innerhalb des Stapels gezeigt werden.
+OpenPetra arbeitet mit doppelter Buchführung, das bedeutet es gibt zu jeder Transaktion mindestens eine Gegenbuchung. Am Ende müssen sich die Debit- und Kredit-Transaktionen gegenüber stehen und ausgleichen.
+
+Das sieht dann so aus:
+
+.. _figure-gl_transaction_list_empty:
+
+.. figure:: images/gl_transaction_list_empty.png
+   :scale: 50%
+
+   Neuer Stapel, noch ohne Transaktionen
+
+Klicken Sie nun auf den Schalter *Hinzufügen* innerhalb des Stapels, um eine Transaktion anzulegen.
+
+Hier können Sie nun eine Transaktion anlegen, um den Kontostand auf einem der Bankkonten des Vereins zu buchen. In unserem Beispiel sind es 31088,99 Euro Haben auf dem Konto der Sparkasse. Wir müssen eine Debit-Buchung auf das Bankkonto erstellen, den Bankkonten werden als Debitkonten geführt.
+
+.. _figure-gl_transaction_add_debit:
+
+.. figure:: images/gl_transaction_add_debit.png
+   :scale: 50%
+
+   Neue Debit-Transaktion
+
+Nun müssen wir auch eine Gegenbuchung anlegen. Für den Übertrag von Beträgen aus dem vorherigen Jahr gibt es das Konto 9700, mit dem englischen Namen "Brought Forward 1st January", als der "Übertrag am 1. Januar". Dort buchen wir den Kredit-Betrag hin.
+
+Natürlich kann man das Geld noch auf verschiedene andere Konten verteilen, wenn man Überträge erhalten will.
+
+.. _figure-gl_transaction_add_credit:
+
+.. figure:: images/gl_transaction_add_credit.png
+   :scale: 50%
+
+   Neue Kredit-Transaktion
+
+Nun können Sie in der Ansicht der Transaktionsliste des neuen Stapels auf den Schalter *Stapel prüfen* klicken, um zu sehen, wie die Salden der betroffenen Konten aussehen würden, wenn Sie nun buchen würden. Das hilft, wenn man sich mit Debit und Kredit nicht so ganz sicher ist...
+
+In unserem Fall sieht es so aus:
+
+.. _figure-gl_test_post:
+
+.. figure:: images/gl_test_post.png
+   :scale: 50%
+
+   Prüfe den Stapel und die Salden der betroffenen Konten
+
+Das Ergebnis ist, dass wir 31088,99 Euro auf dem Bankkonto haben, und 31088,99 Euro im Übertragskonto.
+
+Nun können Sie die Buchung tatsächlich durchführen, in dem Sie auf den Schalter *Stapel buchen* klicken.
+
+Damit wird die Buchung durchgeführt und festgeschrieben, und evtl. Fehler können nur durch Umbuchungen korrigiert werden.
+
