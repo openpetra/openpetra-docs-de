@@ -399,7 +399,6 @@ Die Stapelnummer ist vorgegeben, unveränderbar und fortlaufend.
 Den Namen und das Datum des Stapels können Sie selber vergeben. Das Datum muss in einem offenen Monat liegen.
 
 Wenn Sie auf den Schalter *Übernehmen* klicken, wird der Stapel angelegt. Nun klicken Sie auf den Namen des Stapels, und Sie gelangen in eine Ansicht, wo die Transaktionen innerhalb des Stapels gezeigt werden.
-OpenPetra arbeitet mit doppelter Buchführung, das bedeutet es gibt zu jeder Transaktion mindestens eine Gegenbuchung. Am Ende müssen sich die Debit- und Kredit-Transaktionen gegenüber stehen und ausgleichen.
 
 Das sieht dann so aus:
 
@@ -410,9 +409,11 @@ Das sieht dann so aus:
 
    Neuer Stapel, noch ohne Transaktionen
 
+OpenPetra arbeitet mit doppelter Buchführung, das bedeutet es gibt zu jeder Transaktion mindestens eine Gegenbuchung. Am Ende müssen sich die Debit- und Kredit-Transaktionen gegenüber stehen und ausgleichen.
+
 Klicken Sie nun auf den Schalter *Hinzufügen* innerhalb des Stapels, um eine Transaktion anzulegen.
 
-Hier können Sie nun eine Transaktion anlegen, um den Kontostand auf einem der Bankkonten des Vereins zu buchen. In unserem Beispiel sind es 31088,99 Euro Haben auf dem Konto der Sparkasse. Wir müssen eine Debit-Buchung auf das Bankkonto erstellen, den Bankkonten werden als Debitkonten geführt.
+Hier können Sie nun eine Transaktion anlegen, um den Kontostand auf einem der Bankkonten des Vereins zu buchen. In unserem Beispiel sind es 31088,99 Euro Haben auf dem Konto der Sparkasse. Wir müssen eine Debit-Buchung auf das Bankkonto erstellen, denn Bankkonten werden als Debitkonten geführt.
 
 .. _figure-gl_transaction_add_debit:
 
