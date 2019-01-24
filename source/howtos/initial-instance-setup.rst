@@ -9,12 +9,22 @@ Konfiguration einer frischen OpenPetra Instanz
     Baustelle: Diese Seite ist noch nicht fertiggestellt...
 
 Wir gehen in dieser Anleitung davon aus, dass ein Dienstleister eine Instanz von OpenPetra für Sie bereitgestellt hat.
-Zur Bereitstellung gehört eine **URL**, z.B. https://op012345.openpetra.com, und ein **Passwort** für den ``SYSADMIN`` Benutzer.
+Zur Bereitstellung gehört eine **URL**, z.B. https://op012345.openpetra.com, und es wurde eine E-Mail an Sie versendet, mit einem Link, der das erstmalige Setzen des **Passwortes** für den ``SYSADMIN`` Benutzer erlaubt.
+
+In einer selbst-installierten Umgebung von OpenPetra ist das voreingestellte Passwort für den Benutzer ``SYSADMIN`` das Wort: ``CHANGEME``, wobei die Großschreibung der Buchstaben des Passwortes zu beachten ist.
+
+Passwort setzen
+===============
+
+Sie haben eine E-Mail erhalten, und klicken auf die dort angegebene Internetadresse.
+
+Nun müssen Sie zweimal ein von Ihnen gewähltes Passwort eingeben.
 
 Anmeldung
 =========
 
-Sie melden sich also im Webbrowser auf Ihrer OpenPetra Instanz als Benutzer ``SYSADMIN`` an:
+Sie melden sich nun im Webbrowser auf Ihrer OpenPetra Instanz als Benutzer ``SYSADMIN`` an.
+Sie benutzen das Passwort, das Sie eben gesetzt haben:
 
 .. _figure-login_sysadmin:
 
@@ -23,26 +33,13 @@ Sie melden sich also im Webbrowser auf Ihrer OpenPetra Instanz als Benutzer ``SY
 
    Anmeldung als Benutzer ``SYSADMIN``
 
-Ändern des Passworts
-====================
+Einen nicht-administrativen Benutzer anlegen
+============================================
 
-Als nächster Schritt sollten Sie sofort das Passwort ändern, es wird auch schon direkt die Seite *Einstellungen* / *Passwort ändern* angezeigt:
+Es ist nicht zu empfehlen, die Tagesaufgaben in OpenPetra mit dem Benutzer ``SYSADMIN`` zu erledigen. Daher hat der Benutzer SYSADMIN auch keine Berechtigungen z.B. im Partner- oder Finanz-Modul.
 
-Dazu müssen Sie nochmal das bereitgestellte Passwort eingeben, und dann können Sie ein eigenes Passwort eingeben:
-
-.. _figure-change_password:
-
-.. figure:: images/change_password.png
-   :scale: 50%
-
-   Passwort ändern
-
-.. _eintragen-der-email-adresse:
-
-Eintragen der E-Mail Adresse
-============================
-
-Nun sollten Sie die E-Mail Adresse für den Benutzer ``SYSADMIN`` eintragen, damit Sie die *Passwort vergessen* Funktion verwenden können.
+Stattdessen sollten Sie einen Benutzer anlegen, der auf die Finanz- und Adressdaten zugreifen darf, aber keine Rechte zum Anlegen weiterer Benutzer hat.
+Selbstverständlich können Sie auch für andere Mitarbeiter in Ihrem Team weitere Benutzer anlegen.
 
 Dazu gehen Sie im seitlichen Menü auf *System einrichten*, und wählen *Benutzer*.
 
@@ -53,33 +50,7 @@ Dazu gehen Sie im seitlichen Menü auf *System einrichten*, und wählen *Benutze
 
    Benutzer verwalten
 
-Dort klicken Sie auf das Symbol mit dem Schraubenschlüssel in der Zeile von ``SYSADMIN``, und gelangen in den Dialog zum Bearbeiten des Benutzers:
-
-.. _figure-update_sysadmin_email:
-
-.. figure:: images/update_sysadmin_email.png
-   :scale: 50%
-
-   Benutzer bearbeiten
-
-Dort tragen Sie Ihre E-Mail-Adresse ein, und klicken auf den Schalter *Übernehmen*.
-
-Einen nicht-administrativen Benutzer anlegen
-============================================
-
-Es ist nicht zu empfehlen, die Tagesaufgaben in OpenPetra mit dem Benutzer ``SYSADMIN`` zu erledigen. Daher hat der Benutzer SYSADMIN auch keine Berechtigungen z.B. im Partner- oder Finanz-Modul.
-
-Stattdessen sollten Sie einen Benutzer anlegen, der auf die Finanz- und Adressdaten zugreifen darf, aber keine Rechte zum Anlegen weiterer Benutzer hat.
-Selbstverständlich können Sie auch für andere Mitarbeiter in Ihrem Team weitere Benutzer anlegen.
-
-In der Benutzerverwaltung, wählen Sie den Schalter *Hinzufügen*, um weitere Benutzer hinzuzufügen.
-
-.. _figure-add_user:
-
-.. figure:: images/manage_users.png
-   :scale: 50%
-
-   Benutzer hinzufügen
+Hier wählen Sie den Schalter *Hinzufügen*, um weitere Benutzer hinzuzufügen.
 
 Es folgt dieser Dialog:
 
