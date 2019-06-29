@@ -3,7 +3,7 @@ Das Handbuch verbessern/erweitern
 
 Wir freuen uns über Korrekturen, falls Sie Fehler oder Unklarheiten finden. Neue Kapitel oder Anleitungen sind ebenfalls sehr willkommen!
 
-Wir benutzen `Sqhinx <http://sphinx-doc.org>`_, um das Handbuch in HTML zu erzeugen, aber es sind auch andere Ausgabeformate möglich: Windows Hilfe, PDF, ...
+Wir benutzen `Sphinx <http://sphinx-doc.org>`_, um das Handbuch in HTML zu erzeugen, aber es sind auch andere Ausgabeformate möglich: Windows Hilfe, PDF, ...
 
 Die Anleitung wird in `reStructuredText <http://docutils.sf.net/rst.html>`_ geschrieben.
 
