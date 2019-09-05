@@ -8,6 +8,8 @@ Konfiguration eines frischen Hauptbuches
 
 Wir gehen in dieser Anleitung davon aus, dass das Hauptbuch schon eingerichtet worden ist (siehe :ref:`ein-hauptbuch-anlegen`).
 
+.. _kontenrahmen-einrichten:
+
 Kontenrahmen einrichten
 =======================
 
@@ -291,6 +293,7 @@ Eine Beispiel-Datei sieht so aus:
                                5600:{shortdesc=ICH Settlement Transfers}
                                5601:
 
+.. _kostenstellen-einrichten:
 
 Kostenstellen einrichten
 ========================
@@ -324,6 +327,8 @@ Eine Beispiel-Datei sieht so aus:
                 4300:{descr=Germany, type=Foreign}
                 7300:{descr=Kenya, type=Foreign}
                 9500:{descr=Global Impact Fund, type=Foreign}
+
+.. _verwendungszwecke-einrichten:
 
 Verwendungszwecke einrichten
 ============================
@@ -368,6 +373,8 @@ Der Dialog für das Hinzufügen eines Verwendungszweck-Details sieht so aus:
    :scale: 50%
 
    Verwendungszweck-Detail hinzufügen
+
+.. _startsaldo-buchen:
 
 Startsaldo buchen
 =================
