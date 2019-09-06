@@ -32,9 +32,77 @@ mit der Möglichkeit, eine Spende auch auf verschiedene Projekte aufzusplitten.
 Man kann vom Zeitraum her je nach Spendenaufkommen entscheiden, ob man einen Spendenstapel pro Tag oder pro Monat anlegen will.
 Bei kleineren Vereinen (< 200 Spenden im Monat) ist es zu empfehlen, die Spenden eines Monats in nur einem Spendenstapel anzulegen.
 Pro Spende wird sowieso notiert, an welchem Datum sie eingegangen ist, und dieses Datum erscheint auch auf der Spendenbescheinigung.
+Das Buchungsdatum des Stapels sollte in diesem Fall auf dem letzten Tag des Monats liegen, in dem die Spenden eingegangen sind.
 
+Über 'Buchhaltung'/'Spenden'/'Spenden verwalten' kommt man in die Übersicht der Spendenstapel. Dort auf 'Hinzufügen' klicken.
 
+Nun legt man einen neuen Spendenstapel an:
 
+.. _figure-gift_new_batch:
+
+.. figure:: images/gift_new_batch.png
+   :scale: 50%
+
+   Neuen Spendenstapel anlegen
+
+Das Bank Konto ist das Konto, auf dem die Kontobewegungen notiert werden.
+Für die doppelte Buchführung ist es wichtig, hier die Eingangsseite der Spenden festzulegen.
+Bei den einzelnen Spenden wird nachher festgelegt, zu welchem Einsatzzweck die Spende gebucht wird, also wo sie landen soll.
+
+Nun sieht man den leeren Spendenstapel:
+
+.. _figure-gift_empty_batch:
+
+.. figure:: images/gift_empty_batch.png
+   :scale: 50%
+
+   Leerer Spendenstapel
+
+Hier nun auf den Schalter 'Hinzufügen' klicken, um einzelne Spenden anzulegen.
+
+Das Eingangsdatum sollte das Datum sein, an dem die Spende auf unserem Bankkonto eingegangen ist. Dieses Datum erscheint dann auch auf der Spendenbescheinigung.
+
+.. _figure-gift_new_gift:
+
+.. figure:: images/gift_new_gift.png
+   :scale: 50%
+
+   Neue Spende
+
+Zuerst muss der Spender eingetragen werden, und mit einem Klick auf den Schalter 'Übernehmen' bestätigt werden.
+
+Erst dann erscheint der Schalter, um auch die Verwendung der Spende zu hinterlegen.
+
+.. _figure-gift_new_gift2:
+
+.. figure:: images/gift_new_gift2.png
+   :scale: 50%
+
+   Gespeicherte neue Spende, bereit für Spendendetails
+
+Nun können die Details für die Spende eingetragen werden. Jede Spende besteht aus einem oder mehreren Details.
+Das bedeutet, ein Spender kann uns vorher mitteilen, oder im Verwendungszweck auf dem Kontoauszug, dass er z.B.
+20 Euro für das Projekt 'Allgemein' und 10 Euro für das Projekt 'Patenschaften' spenden möchte.
+
+.. _figure-gift_new_detail:
+
+.. figure:: images/gift_new_detail.png
+   :scale: 50%
+
+   Neues Spendendetail anlegen
+
+Wenn die Spendendetails eingetragen sind, sieht das dann so aus:
+
+.. _figure-gift_details:
+
+.. figure:: images/gift_details.png
+   :scale: 50%
+
+   Spende mit Details
+
+Nun klickt man auf den Schalter 'Übernehmen', und gelangt wieder in die Ansicht des Stapels.
+
+Nach Eingabe aller Spenden kann es dann zur Buchung gehen, die weiter unten beschrieben wird.
 
 Erfassen von Spenden mithilfe von Kontoauszug
 =============================================
@@ -123,20 +191,90 @@ Im nächsten Monat wird die Spende schon gleich wiedererkannt, und automatisch d
 
 Wenn man alle Spenden ordentlich zugeordnet hat, klickt man in der Hauptansicht auf 'Erstelle Spendenstapel aus Kontoauszug'.
 
-Nun kann man den Spendenstapel ganz normal weiterverarbeiten, also buchen.
+Nun kann man den Spendenstapel ganz normal weiterverarbeiten, also buchen. Das ist weiter unten beschrieben.
 
 .. _figure-bankimport_posting:
 
 .. figure:: images/bankimport_posting.png
    :scale: 50%
 
-   Spendenstapel bereit zum Posten
+   Unser importierter Spendenstapel ist bereit zum Posten
 
 Spendenstapel buchen
 ====================
 
+Über 'Buchhaltung'/'Spenden'/'Spenden verwalten' kommt man in die Übersicht der Spendenstapel.
+
+.. _figure-gift_post_batch:
+
+.. figure:: images/gift_post_batch.png
+   :scale: 50%
+
+   Ein Spendenstapel ist bereit zum Posten
+
+Dort klickt man erst auf den gewünschten Spendenstapel und dann auf den Schalter 'Buchen'.
+
+Es sollte eine Meldung erscheinen, dass der Stapel erfolgreich verbucht wurde.
+
+Er ist dann erstmal nicht in der Liste sichtbar, falls die Liste nur ungebuchte Spendenstapel zeigt.
+
+Das kann über einen Klick auf den Schalter 'Finden' geändert werden:
+
+.. _figure-gift_find_batch:
+
+.. figure:: images/gift_find_batch.png
+   :scale: 50%
+
+   Man kann den Filter für die Anzeige der Spendenstapel ändern.
+
+Man kann also den Status für die Stapel von Unposted auf Posted oder Alle ändern, oder auch auf Cancelled, für abgebrochene Stapel.
+
+Ebenfalls kann man nach Monat filtern.
+
 Bericht: Einnahmen pro Verwendungszweck
 =======================================
 
+Wie kommt man an die Übersicht, wieviel Spenden nun für welches Projekt eingegangen sind?
+
+Dieser Punkt kann sicherlich noch verbessert werden, aber im Moment ist es möglich, über den Bericht der Kontobewegungen diese Information zu erhalten.
+
+Über 'Buchhaltung'/'Hauptbuch'/'Berichte' findet man den 'Bericht über die Kontenbewegungen'.
+
+Nun können die Rahmenbedingungen für den Bericht gesetzt werden:
+
+.. _figure-report_account_detail_parameters:
+
+.. figure:: images/report_account_detail_parameters.png
+   :scale: 50%
+
+   Parameter für den Bericht einstellen
+
+Man wählt das Jahr, und den Berichtszeitraum nach Monaten.
+
+Außerdem wählt man, welche Konton man berücksichtigen will. Momentan werden alle Kostenstellen berücksichtigt, da gibt es keine Auswahlmöglichkeit.
+
+Dann klickt man auf den Schalter 'Bericht erzeugen'.
+
+Nun wird das Ergebnis angezeigt:
+
+.. _figure-report_account_detail_result:
+
+.. figure:: images/report_account_detail_result.png
+   :scale: 50%
+
+   Ergebnis des Berichtes
+
+Es erscheinen nun die Schalter 'Excel Datei' und 'PDF Datei', die den Export des Ergebnisses ermöglichen.
+
+Die Spalte, die mit Balance überschrieben ist, bezeichnet den Kontostand für die angegebene Kostenstelle.
+
+Man sieht hier unten das Konto 6200, das unser Bankkonto darstellt, wo eine Buchung pro Spendenstapel ist.
+
+Falls die Buchung der Spenden auf unterschiedliche Kostenstellen gegangen wäre, würde man die hier auch sehen. In diesem Beispiel war aber bei den Verwendungszwecken überall die Kostenstelle 1000 eingetragen.
+
+Wie bereits gesagt, ist dieser Bereich noch ausbaufähig, und wir sind für Vorschläge und Beiträge offen.
+
 Drucken der Jahresspendenbescheinigungen
 ========================================
+
+TODO: die Dokumentation für die Jahresspendenbescheinigungen folgt noch!
