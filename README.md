@@ -9,3 +9,13 @@ Das aus den Quellen erzeugte Handbuch kann hier gelesen werden: https://handbuch
 
 Beiträge und Verbesserungen sind herzlich willkommen!
 Um mitzumachen, bitte die Seite https://handbuch.openpetra.de/contributions/ besuchen
+
+Handbuch erstellen
+------------------
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install sphinx
+make html
+```
