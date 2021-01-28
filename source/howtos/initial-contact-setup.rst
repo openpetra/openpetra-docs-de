@@ -1,5 +1,5 @@
 ===============================
-Konfiguration des Partnermoduls
+Konfiguration des Kontaktmoduls
 ===============================
 
 .. NOTE::
@@ -15,7 +15,7 @@ Ein Beispiel ist die Kategorie PATE, die Sie anlegen können, und dann später I
 
 Oder Sie haben eine Kategorie VEREINSMITGLIED, oder MITARBEIT.
 
-Gehen Sie im seitlichen Menü auf *Partner*, und wählen *Konfiguration*, und dann wählen Sie *Kategorien verwalten*.
+Gehen Sie im seitlichen Menü auf *Kontakte*, und wählen *Konfiguration*, und dann wählen Sie *Kategorien verwalten*.
 
 .. _figure-category_list:
 
@@ -44,7 +44,7 @@ Hier können Sie die Art oder den Namen einer solchen Publikation einrichten.
 
 Das kann ein Jahresrückblick, oder ein sonstiges regelmäßiges Rundschreiben sein.
 
-Gehen Sie im seitlichen Menü auf *Partner*, und wählen *Konfiguration*, und dann wählen Sie *Abonnements verwalten*.
+Gehen Sie im seitlichen Menü auf *Kontakte*, und wählen *Konfiguration*, und dann wählen Sie *Abonnements verwalten*.
 
 .. _figure-publication_list:
 
@@ -81,10 +81,10 @@ Die Reihenfolge der Spalten ist nicht wichtig, dafür ist aber die Überschrift 
 
 Dann speichern Sie die Daten im Datei-Format CSV.
 
-Nun gehen Sie im seitlichen Menü auf *Partner*, und wählen *Partner*, und dann wählen Sie *Partner importieren*.
+Nun gehen Sie im seitlichen Menü auf *Kontakte*, und wählen *Kontakte*, und dann wählen Sie *Kontakte importieren*.
 
-Dann klicken Sie auf den Schalter mit der Beschriftung *Partner aus CSV Datei importieren*.
+Dann klicken Sie auf den Schalter mit der Beschriftung *Kontakte aus CSV Datei importieren*.
 
 Es öffnet sich ein Dialog, wo Sie die Datei auswählen, die Sie vorhin gespeichert haben.
 
-Nach dem erfolgreichen Import können Sie unter *Partner* / *Partner* / *Partner verwalten* die Liste Ihrer Partner sehen.
+Nach dem erfolgreichen Import können Sie unter *Kontakte* / *Kontakte* / *Kontakte verwalten* die Liste Ihrer Kontakte sehen.

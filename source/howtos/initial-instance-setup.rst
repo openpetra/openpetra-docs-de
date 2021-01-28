@@ -36,7 +36,7 @@ Sie benutzen das Passwort, das Sie eben gesetzt haben:
 Einen nicht-administrativen Benutzer anlegen
 ============================================
 
-Es ist nicht zu empfehlen, die Tagesaufgaben in OpenPetra mit dem Benutzer ``SYSADMIN`` zu erledigen. Daher hat der Benutzer SYSADMIN auch keine Berechtigungen z.B. im Partner- oder Finanz-Modul.
+Es ist nicht zu empfehlen, die Tagesaufgaben in OpenPetra mit dem Benutzer ``SYSADMIN`` zu erledigen. Daher hat der Benutzer SYSADMIN auch keine Berechtigungen z.B. im Kontakt- oder Finanz-Modul.
 
 Stattdessen sollten Sie einen Benutzer anlegen, der auf die Finanz- und Adressdaten zugreifen darf, aber keine Rechte zum Anlegen weiterer Benutzer hat.
 Selbstverständlich können Sie auch für andere Mitarbeiter in Ihrem Team weitere Benutzer anlegen.
