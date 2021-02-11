@@ -88,6 +88,7 @@ Hier können Sie eine einfache LibreOffice Calc Datei als Beispiel herunterladen
 Hier können Sie eine einfache Excel Datei als Beispiel herunterladen: https://github.com/openpetra/openpetra/raw/test/demodata/partners/samplePartnerImport.xlsx
 
 Die Reihenfolge der Spalten ist nicht wichtig, dafür ist aber die Überschrift der Spalten maßgeblich.
+Es können auch Spalten weggelassen werden, z.B. für die Einwilligungen oder für die Kategorien.
 
 Wir verarbeiten momenten Spalten mit diesen Überschriften:
 
@@ -101,9 +102,14 @@ Wir verarbeiten momenten Spalten mit diesen Überschriften:
 * Email: E-Mail Adresse
 * Mobile: Das ist die Handynummer
 * Phone: Das ist die Festnetznummer
+* Category, Category1, Category2, Category3, Category4: Kategorien für den Kontakt, z.B. SPENDER oder MITGLIED oder VORSTAND
 * IBAN, IBAN1, IBAN2, IBAN3, IBAN4: IBAN Nummer des Bankkontos
-* TODO: Einwilligungen
-* TODO: Kategorien
+* Einwilligungen: ConsentChannel1, ConsentWhen1, ConsentType1, ConsentPurpose1, und entsprechend weitere Nummerierungen (ConsentChannel2, ConsentWhen2, usw.) für weitere Einwilligungen.
+
+   * ConsentChannel: Wie wurde die Einwilligung an uns herangetragen? Mögliche Werte siehe in der Einrichtung in OpenPetra bei Kontakte / Konfiguration / DSGVO Einwilligungskanäle: z.B. CONVERSATION, EMAIL, LETTER, PHONE
+   * ConsentWhen: Das Datum, an dem die Einwilligung gegeben wurde.
+   * ConsentType: Für welchen Teil der Adresse wurde diese Einwilligung gegeben. Mögliche Werte: ADDRESS (d.h. Anschrift), EMAIL (d.h. E-Mail Adresse), PHONE (d.h. Festnetznummer), MOBILE (d.h. Handynummer)
+   * ConsentPurpose: Für welchen Zweck wurde die Einwilligung gegeben. Mögliche Werte siehe in der Einrichtung in OpenPetra bei Kontakte / Konfiguration / DSGVO Verwendungszwecke: z.B. GR (d.h. Spendenverwaltung), NEWSLETTER, PR (d.h. Öffentlichkeitsarbeit).
 
 Kontakte importieren
 --------------------
