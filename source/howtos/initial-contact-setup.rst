@@ -95,6 +95,7 @@ Wir verarbeiten momenten Spalten mit diesen Überschriften:
 * Title: die Anrede, also Herr / Frau
 * FirstName: Vorname
 * FamilyName: Nachname
+* OrganisationName: In einer Zeile kann man entweder Title/FirstName/FamilyName, oder OrganisationName setzen. Falls diese Spalte einen Wert in der aktuellen Zeile hat, wird ein Kontakt vom Typ Organisation angelegt.
 * Street: Straße mit Hausnummer
 * PostCode: Postleitzahl
 * City: Ort
