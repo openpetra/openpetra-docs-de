@@ -109,21 +109,33 @@ Erfassen von Spenden mithilfe von Kontoauszug
 
 Es ist zu empfehlen, nicht jede Spende von Hand einzugeben.
 
-Jede Bank bietet es an, den Kontoauszug im CSV oder CAMT Format herunterzuladen.
+Jede Bank bietet es an, den Kontoauszug im CSV oder CAMT Format herunterzuladen. Evtl. ist auch noch das MT940 Format verbreitet.
 
-Momentan unterstützt OpenPetra nur die Verarbeitung im CSV Format,
-aber die Unterstützung für CAMT ist schon im Prinzip fertig, und kann im Bedarfsfall freigeschaltet werden.
+OpenPetra unterstützt die Verarbeitung im CSV Format und MT940 Format.
+CAMT wird unterstützt, und wird empfohlen, da es zukunftssicher ist.
+Es wird sowohl der Import von CAMT.052 als auch CAMT.053 unterstützt, und man kann ebenfalls ZIP Dateien importieren, die mehrere CAMT Dateien enthalten.
 
-Man muss beim ersten Mal ein paar Einstellungen vornehmen, da jede Bank die CSV Datei etwas anders gestaltet. Dazu auf den Schalter 'Voreinstellung' klicken.
+.. _figure-bankimport_import:
+
+.. figure:: images/bankimport_import.png
+   :scale: 50%
+
+   Importieren als CSV Datei, CAMT Datei oder MT940 Datei
+
+Import von CSV Dateien
+----------------------
+
+Beim Importieren von CAMT oder MT940 muss man keine Einstellungen vornehmen, das ist also viel einfacher und daher zu empfehlen.
+
+Für den Import von CSV Dateien klicken Sie bitte auf den Schalter "Voreinstellungen für CSV", und gelangen in diese Ansicht.
+Diese Einstellungen muss man nur beim ersten Mal vornehmen, da jede Bank die CSV Datei etwas anders gestaltet.
 
 .. _figure-bankimport_settings:
 
 .. figure:: images/bankimport_settings.png
    :scale: 50%
 
-   Voreinstellungen für Kontoauszüge
-
-Das Bankkonto ist ein Konto, auf dem die Spenden eingehen, und der Kontoauszug bezieht sich auf dieses Konto.
+   Voreinstellungen für Kontoauszüge im CSV Format
 
 Nur Zeilen unter dieser Zeile auswerten: Hier geht es um die Zeile, ab der die eigentlichen Transaktionen verarbeitet werden sollen,
 also meistens die Zeile mit den Überschriften der Spalten.
@@ -143,7 +155,7 @@ Der Trenner zwischen den Werten ist üblicherweise das Semikolon, kann aber auch
 Der Zeichensatz kann auch noch Latin-1 sein, auch wenn der UTF-8 Zeichensatz zeitgemäßer ist.
 Das erkennen Sie daran, dass die Umlaute falsch dargestellt werden. Dann probieren Sie einfach den anderen Zeichensatz.
 
-Dann auf den Schalter 'Als Voreinstellung speichern' klicken, und dann kann man wieder auf den Schalter 'Voreinstellung' klicken, um die Einstellungen verschwinden zu lassen.
+Dann auf den Schalter 'Als Voreinstellung speichern' klicken, und dann kann man wieder auf den Schalter 'Voreinstellungen für CSV' klicken, um die Einstellungen verschwinden zu lassen.
 
 Nun auf den Schalter 'Importieren' klicken, und den aktuellen Kontoauszug als CSV Datei vom lokalen Rechner wählen. Es wird automatisch der aktuelle Monat erkannt, und Kontobewegungen vom Ende des Vormonats oder vom ersten des Folgemonats werden ignoriert.
 
@@ -166,7 +178,24 @@ Eine Beispiel-Datei kann so aussehen: (auch zum Download zu finden: https://gith
    "30.07.2019";"30.07.2019";"Arno Grosse SEPA-ÜBERWEISUNG SVWZ+ RINP Dauerauftrag S pende EREF+ 000000000000000 00002";"10,00";"EUR";""
    "* noch nicht ausgeführte Umsätze"
 
-Man kann noch die Auswahl treffen bei 'Status', ob man alle Transaktionen sehen will, oder nur die erkannten Spenden, usw.
+Beispieldatei für CAMT
+----------------------
+
+Eine Beispiel-Datei kann hier heruntergeladen werden: https://github.com/openpetra/openpetra/blob/master/csharp/ICT/Testing/lib/MFinance/server/BankImport/camt_testfile.52.xml
+
+
+Beispieldatei für MT940
+-----------------------
+
+Eine Beispiel-Datei kann hier heruntergeladen werden: https://github.com/openpetra/openpetra/blob/master/csharp/ICT/Testing/lib/MFinance/server/BankImport/mt940test.sta
+
+
+Importieren von Kontoauszügen
+-----------------------------
+
+Für alle Dateiformate gilt: Es muss das Bankkonto gewählt werden. Das ist das Konto, auf dem die Spenden eingehen, und der Kontoauszug bezieht sich auf dieses Konto.
+
+Nachdem die Datei importiert wurde, kann man noch die Auswahl treffen bei 'Status', ob man alle Transaktionen sehen will, oder nur die erkannten Spenden, usw.
 Dann auf den Schalter 'Anzeigen' klicken. 
 
 Das sieht im Beispiel dann so aus:
@@ -177,6 +206,9 @@ Das sieht im Beispiel dann so aus:
    :scale: 50%
 
    Ansicht der Kontobewegungen
+
+Kontobewegungen bearbeiten
+--------------------------
 
 Nun kann man eine Kontobewegung bearbeiten, und zuweisen, ob diese als Spende verarbeitet werden soll. Man weist den Spender zu, und den Verwendungszweck.
 
