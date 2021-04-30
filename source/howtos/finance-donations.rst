@@ -127,7 +127,7 @@ Import von CSV Dateien
 
 Beim Importieren von CAMT oder MT940 muss man keine Einstellungen vornehmen, das ist also viel einfacher und daher zu empfehlen.
 
-Für den Import von CSV Dateien klicken Sie bitte auf den Schalter "Voreinstellungen für CSV", und gelangen in diese Ansicht.
+Für den Import von CSV Dateien klicken Sie bitte auf den Schalter 'Voreinstellungen für CSV', und gelangen in diese Ansicht.
 Diese Einstellungen muss man nur beim ersten Mal vornehmen, da jede Bank die CSV Datei etwas anders gestaltet.
 
 .. _figure-bankimport_settings:
@@ -193,7 +193,8 @@ Eine Beispiel-Datei kann hier heruntergeladen werden: https://github.com/openpet
 Importieren von Kontoauszügen
 -----------------------------
 
-Für alle Dateiformate gilt: Es muss das Bankkonto gewählt werden. Das ist das Konto, auf dem die Spenden eingehen, und der Kontoauszug bezieht sich auf dieses Konto.
+Für alle Dateiformate gilt: Es muss das Bankkonto gewählt werden, bevor der Schalter zum Importieren geklickt wird.
+Das Bankkonto ist das Konto, auf dem die Spenden eingehen, und der Kontoauszug bezieht sich auf dieses Konto.
 
 Nachdem die Datei importiert wurde, kann man noch die Auswahl treffen bei 'Status', ob man alle Transaktionen sehen will, oder nur die erkannten Spenden, usw.
 Dann auf den Schalter 'Anzeigen' klicken. 
