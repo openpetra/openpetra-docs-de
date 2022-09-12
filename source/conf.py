@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenPetra'
-copyright = u'2014-2021, OpenPetra Community & SolidCharity'
+copyright = u'2014-2022, OpenPetra Community & SolidCharity'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
